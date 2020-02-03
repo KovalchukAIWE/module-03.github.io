@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+}
+.header {
+    width: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.main {
+    margin: 1%;
+    padding: 0%;
+}
+.menu-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-navigation {
+    width: 60%;
+}
+menu>li {
+    list-style-type: none;
+}
+.menu-item_link {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.box1 {
+    margin-top: 30px;
+    margin-left: 320px;
+}
+
+.box2 {
+    margin-top: 0px;
+    margin-left: 320px;
+}
+
+.box3 {
+    margin-top: 0px;
+    margin-left: 320px;
+}
+
+.content1 {
+    display: inline-block;
+    margin: 10px;
+    padding: 40px;
+    height: 400px;
+    width: 30%;
+}
+
+.content2 {
+    padding: 40px;
+    margin-left: 20px;
+    display: inline-block;
+    height: 400px;
+    width: 30%;
+}
+
+.section {
+    margin: 5px;
+    margin-left: 0px;
+    padding: 5px;
+    padding-left: 0;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
